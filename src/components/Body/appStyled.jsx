@@ -15,7 +15,7 @@ export const Template = styled.div`
 export const Body = styled.div`
   && {
     flex: auto;
-    display:flex
+    display:flex;
     flex-direction: column;
   }
 `;

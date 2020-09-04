@@ -2,9 +2,19 @@ import styled from "styled-components";
 
 export const FooterStyle = styled.footer`
   && {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    background-color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfcfcf;
     flex-shrink: 0;
+  }
+`;
+export const IconsContainer = styled.div`
+  && {
+    display: flex;
+    justify-content: space-evenly;
   }
 `;

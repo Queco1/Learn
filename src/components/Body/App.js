@@ -8,8 +8,8 @@ import {
   BinaryConversion,
   Body
 } from "./appStyled";
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
 export default function App() {
   const [binary, setBinary] = useState("");
